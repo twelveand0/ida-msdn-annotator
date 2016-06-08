@@ -14,6 +14,7 @@ I strongly recommend you to refer the original <a href="https://github.com/firee
 
 ##Usage
 Usage for script adding annotations to imported functions can be found at
+
     1. https://github.com/fireeye/flare-ida (MSDN Annotations Usage section)</p>
     2. https://www.fireeye.com/blog/threat-research/2014/09/flare-ida-pro-script-series-msdn-annotations-ida-pro-for-malware-analysis.html</p>
 
