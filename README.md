@@ -13,8 +13,7 @@ I strongly recommend you to refer the original <a href="https://github.com/firee
 3. Add new regrex rules to parse the imported functions' name in IDA.
 
 ##Usage
-Usage for script adding annotations to imported functions can be found at
-
+Usage for script adding annotations to imported functions can be found at:
 1. https://github.com/fireeye/flare-ida (MSDN Annotations Usage section)
 2. https://www.fireeye.com/blog/threat-research/2014/09/flare-ida-pro-script-series-msdn-annotations-ida-pro-for-malware-analysis.html
 
