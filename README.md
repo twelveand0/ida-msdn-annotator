@@ -18,3 +18,6 @@ Usage for script adding annotations to imported functions can be found at
 1. https://github.com/fireeye/flare-ida (<b>MSDN Annotations Usage</b> section)
 2. https://www.fireeye.com/blog/threat-research/2014/09/flare-ida-pro-script-series-msdn-annotations-ida-pro-for-malware-analysis.html
 
+Usage for script adding annotations to structures is similar to the above
+
+###NOTES about preparing sdk help files
