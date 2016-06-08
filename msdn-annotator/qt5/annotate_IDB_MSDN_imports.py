@@ -5,7 +5,7 @@ annotating database files with MSDN information.
 Authors: Bingchang, Liu
 Copyright 2016 VARAS, IIE of CAS
 
-This work is almost based on Moritz Raabe and William Ballenthin's work at:
+This work is almost based on Moritz Raabe and William Ballenthin's work (Copyright 2014) at:
 https://github.com/fireeye/flare-ida
 
 Mandiant licenses this file to you under the Apache License, Version
