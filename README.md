@@ -26,7 +26,7 @@ After you install standalone Windows SDK into your local drive (By default, it i
 1. <b>Prepare for decompiling</b> Install Vistual Studio 2008 and VS 2008 SDK version 1.0 (MUST BE) or lower VS and VS SDK version
 2. <b>Demcopiling .hxs</b> Run hxcomp.exe (default location is 'C:\Program Files\Common Files\microsoft shared\Help 2.0 Compiler\hxcomp.exe') to decompile help files endwith '.hxs'. You can do it with the following command:
 
-    for /R %x in (*.hxs) do hxcomp -u "%x"
+        for /R %x in (*.hxs) do hxcomp -u "%x"
 
 
 
