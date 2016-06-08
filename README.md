@@ -32,6 +32,6 @@ After you install standalone Windows SDK into your local drive (By default, it i
 
 3. Run msdn_crawer.py
 
-        python msdn_crawler.py *<path to extracted MSDN html documentation>* *<path to tilib.exe>* *<path to til files>*
+        python msdn_crawler.py <em><path to extracted MSDN html documentation><em> *<path to tilib.exe>* *<path to til files>*
         
 
