@@ -21,7 +21,12 @@ Usage for script adding annotations to imported functions can be found at
 Usage for script adding annotations to structures is similar to the above
 
 ###NOTES about preparing sdk help files
-After you install standalone Windows SDK into your local drive (By default, it is located at 'C:\Program Files\Microsoft SDKs\Windows\v7.0\Help\1033'), you can find the installed help files in folder 'C:\Program Files\Microsoft SDKs\Windows\v7.0\Help\1033'. However, these files (endwith '.Hxs') are compiled files and not human readable. You have to do something before running msdn_crawer.py.
+After you install standalone Windows SDK into your local drive (By default, it is located at 'C:\Program Files\Microsoft SDKs\Windows \v7.0\Help\1033'), you can find the installed help files in folder 'C:\Program Files\Microsoft SDKs\Windows\v7.0\Help \1033'. However, these files (endwith '.hxs') are compiled files and not human readable. You have to do something before running msdn_crawer.py.
 
-1. *Prepare for decompiling* Install Vistual Studio 2008 and VS 2008 SDK version 1.0 (MUST BE) or lower VS and VS SDK version
-2. 
+1. <b>Prepare for decompiling</b> Install Vistual Studio 2008 and VS 2008 SDK version 1.0 (MUST BE) or lower VS and VS SDK version
+2. <b>Demcopiling .hxs</b> Run hxcomp.exe (default location is 'C:\Program Files\Common Files\microsoft shared\Help 2.0 Compiler\hxcomp.exe') to decompile help files endwith '.hxs'. You can do it with the following command:
+
+    for /R %x in (*.hxs) do hxcomp -u "%x"
+
+
+
